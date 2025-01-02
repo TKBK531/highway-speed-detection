@@ -1,0 +1,7 @@
+Vehicle Speed Records
+=====================
+
+Tracker ID: 1
+Average Speed: 67 km/h
+Vehicle Type: car
+-----------------------------
