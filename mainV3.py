@@ -42,7 +42,9 @@ class ViewTransformer:
 def main():
     video_path = r"resources\highway.mp4"
     output_file = "vehicle_speeds.txt"
-    output_video = "annotated_video2.mp4"
+    output_video = "annotated_video.mp4"
+    start_time = int(input("Enter start time in seconds: "))
+    end_time = int(input("Enter end time in seconds: "))
 
     video_info = sv.VideoInfo.from_video_path(video_path)
     model = YOLO("yolov8x.pt")
@@ -72,7 +74,17 @@ def main():
         f.write("Vehicle Speed Records\n")
         f.write("=====================\n\n")
 
+        frame_count = 0
+        start_frame = start_time * video_info.fps
+        end_frame = end_time * video_info.fps
+
         for frame in frame_generator:
+            if frame_count < start_frame:
+                frame_count += 1
+                continue
+            if frame_count > end_frame:
+                break
+
             result = model.predict(frame)[0]
             detections = sv.Detections.from_ultralytics(result)
             detections = detections[polygon_zone.trigger(detections)]
@@ -120,9 +132,7 @@ def main():
             )
 
             out.write(annotated_frame)
-            cv2.imshow("Annotated Frame", annotated_frame)
-            if cv2.waitKey(1) & 0xFF == ord("q"):
-                break
+            frame_count += 1
 
     out.release()
     cv2.destroyAllWindows()

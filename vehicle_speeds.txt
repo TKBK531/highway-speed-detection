@@ -5,3 +5,47 @@ Tracker ID: 1
 Average Speed: 67 km/h
 Vehicle Type: car
 -----------------------------
+Tracker ID: 5
+Average Speed: 47 km/h
+Vehicle Type: car
+-----------------------------
+Tracker ID: 7
+Average Speed: 47 km/h
+Vehicle Type: car
+-----------------------------
+Tracker ID: 12
+Average Speed: 67 km/h
+Vehicle Type: car
+-----------------------------
+Tracker ID: 16
+Average Speed: 54 km/h
+Vehicle Type: car
+-----------------------------
+Tracker ID: 29
+Average Speed: 54 km/h
+Vehicle Type: truck
+-----------------------------
+Tracker ID: 31
+Average Speed: 54 km/h
+Vehicle Type: car
+-----------------------------
+Tracker ID: 32
+Average Speed: 47 km/h
+Vehicle Type: car
+-----------------------------
+Tracker ID: 38
+Average Speed: 60 km/h
+Vehicle Type: car
+-----------------------------
+Tracker ID: 40
+Average Speed: 74 km/h
+Vehicle Type: car
+-----------------------------
+Tracker ID: 41
+Average Speed: 60 km/h
+Vehicle Type: truck
+-----------------------------
+Tracker ID: 43
+Average Speed: 74 km/h
+Vehicle Type: car
+-----------------------------
