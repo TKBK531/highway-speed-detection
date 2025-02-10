@@ -12,7 +12,7 @@ LENGTH_BETWEEN_LINES = 9
 WIDTH_OF_ROAD = 5
 
 target_length = LENGTH_OF_ONE_LINE * 5 + LENGTH_BETWEEN_LINES * 6
-target_width = WIDTH_OF_ROAD
+target_width = WIDTH_OF_ROAD / 2
 
 TARGET = np.array(
     [
@@ -43,7 +43,7 @@ class ViewTransformer:
 def main():
     video_path = r"resources\highway.mp4"
     output_file = "vehicle_speeds.txt"
-    output_video = "annotated_video2.mp4"
+    output_video = r"outputs\annotated_video2.mp4"
 
     video_info = sv.VideoInfo.from_video_path(video_path)
     model = YOLO("yolov8x.pt")
