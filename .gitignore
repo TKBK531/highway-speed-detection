@@ -136,3 +136,4 @@ output/*
 !output/.gitkeep
 
 vehicle_speeds.txt
+annotated_video.mp4

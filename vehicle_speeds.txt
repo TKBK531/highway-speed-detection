@@ -1,199 +1,69 @@
 Vehicle Speed Records
 =====================
 
-Left Lane - Tracker ID: 1
+Tracker ID: 1
 Average Speed: 67 km/h
 Vehicle Type: car
+Lane: Right Lane
+Exit Time: 0.47 seconds
 -----------------------------
-Left Lane - Tracker ID: 1
-Average Speed: 69 km/h
+Tracker ID: 4
+Average Speed: 54 km/h
 Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 1.67 seconds
 -----------------------------
-Left Lane - Tracker ID: 1
-Average Speed: 69 km/h
+Tracker ID: 5
+Average Speed: 60 km/h
 Vehicle Type: car
+Lane: Right Lane
+Exit Time: 6.13 seconds
 -----------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
+Tracker ID: 8
+Average Speed: 74 km/h
 Vehicle Type: car
+Lane: Right Lane
+Exit Time: 19.27 seconds
 -----------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
+Tracker ID: 12
+Average Speed: 47 km/h
 Vehicle Type: car
+Lane: Right Lane
+Exit Time: 23.20 seconds
 -----------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: bus
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
+Tracker ID: 14
+Average Speed: 54 km/h
 Vehicle Type: car
+Lane: Left Lane
+Exit Time: 24.40 seconds
 -----------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
+Tracker ID: 19
+Average Speed: 74 km/h
 Vehicle Type: car
+Lane: Left Lane
+Exit Time: 27.53 seconds
 -----------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
+Tracker ID: 23
+Average Speed: 60 km/h
 Vehicle Type: car
+Lane: Right Lane
+Exit Time: 28.13 seconds
 -----------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
+Tracker ID: 36
+Average Speed: 54 km/h
 Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 32.67 seconds
 -----------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
+Tracker ID: 38
+Average Speed: 54 km/h
 Vehicle Type: car
+Lane: Right Lane
+Exit Time: 34.53 seconds
 -----------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 68 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
+Tracker ID: 39
+Average Speed: 54 km/h
 Vehicle Type: car
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: car
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 67 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: car
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: car
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
------------------------------
-Left Lane - Tracker ID: 129
-Average Speed: 66 km/h
-Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 38.87 seconds
 -----------------------------
