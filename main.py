@@ -5,6 +5,8 @@ from ultralytics import YOLO
 from collections import defaultdict, deque
 
 SOURCE = np.array([[976, 123], [1150, 147], [800, 630], [0, 520]])
+# SOURCE = np.array([[976, 123], [1060, 131], [368, 571], [0, 520]])  # Left
+# SOURCE = np.array([[1060, 131], [1150, 147], [800, 630], [368, 571]])  # Right
 
 LENGTH_OF_ONE_LINE = 3
 LENGTH_BETWEEN_LINES = 9

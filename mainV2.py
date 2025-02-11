@@ -66,8 +66,6 @@ def main():
     coordinates_right = defaultdict(lambda: deque(maxlen=video_info.fps))
     speeds_left = defaultdict(list)
     speeds_right = defaultdict(list)
-    recorded_ids_left = set()
-    recorded_ids_right = set()
 
     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
     out = cv2.VideoWriter(
@@ -101,16 +99,19 @@ def main():
                 )
             ).astype(int)
 
-            labels_left = []
-            labels_right = []
+            # Initialize labels for all detections
+            labels_left = [
+                f"#{tracker_id}" for tracker_id in detections_left.tracker_id
+            ]
+            labels_right = [
+                f"#{tracker_id}" for tracker_id in detections_right.tracker_id
+            ]
 
-            for tracker_id, [_, y], class_id in zip(
-                detections_left.tracker_id, points_left, detections_left.class_id
+            for idx, (tracker_id, [_, y], class_id) in enumerate(
+                zip(detections_left.tracker_id, points_left, detections_left.class_id)
             ):
                 coordinates_left[tracker_id].append(y)
-                if len(coordinates_left[tracker_id]) < video_info.fps / 2:
-                    labels_left.append(f"#{tracker_id}")
-                else:
+                if len(coordinates_left[tracker_id]) >= video_info.fps / 2:
                     distance = abs(
                         coordinates_left[tracker_id][-1]
                         - coordinates_left[tracker_id][0]
@@ -122,23 +123,21 @@ def main():
                         speeds_left[tracker_id]
                     )
                     vehicle_type = model.names[class_id]
-                    labels_left.append(f"#{tracker_id} {int(avg_speed)} km/h")
-                    if tracker_id not in recorded_ids_left:
-                        f.write(
-                            f"Left Lane - Tracker ID: {tracker_id}\n"
-                            f"Average Speed: {int(avg_speed)} km/h\n"
-                            f"Vehicle Type: {vehicle_type}\n"
-                            f"-----------------------------\n"
-                        )
-                        recorded_ids_left.add(tracker_id)
+                    labels_left[idx] = f"#{tracker_id} {int(avg_speed)} km/h"
+                    f.write(
+                        f"Left Lane - Tracker ID: {tracker_id}\n"
+                        f"Average Speed: {int(avg_speed)} km/h\n"
+                        f"Vehicle Type: {vehicle_type}\n"
+                        f"-----------------------------\n"
+                    )
 
-            for tracker_id, [_, y], class_id in zip(
-                detections_right.tracker_id, points_right, detections_right.class_id
+            for idx, (tracker_id, [_, y], class_id) in enumerate(
+                zip(
+                    detections_right.tracker_id, points_right, detections_right.class_id
+                )
             ):
                 coordinates_right[tracker_id].append(y)
-                if len(coordinates_right[tracker_id]) < video_info.fps / 2:
-                    labels_right.append(f"#{tracker_id}")
-                else:
+                if len(coordinates_right[tracker_id]) >= video_info.fps / 2:
                     distance = abs(
                         coordinates_right[tracker_id][-1]
                         - coordinates_right[tracker_id][0]
@@ -150,15 +149,13 @@ def main():
                         speeds_right[tracker_id]
                     )
                     vehicle_type = model.names[class_id]
-                    labels_right.append(f"#{tracker_id} {int(avg_speed)} km/h")
-                    if tracker_id not in recorded_ids_right:
-                        f.write(
-                            f"Right Lane - Tracker ID: {tracker_id}\n"
-                            f"Average Speed: {int(avg_speed)} km/h\n"
-                            f"Vehicle Type: {vehicle_type}\n"
-                            f"-----------------------------\n"
-                        )
-                        recorded_ids_right.add(tracker_id)
+                    labels_right[idx] = f"#{tracker_id} {int(avg_speed)} km/h"
+                    f.write(
+                        f"Right Lane - Tracker ID: {tracker_id}\n"
+                        f"Average Speed: {int(avg_speed)} km/h\n"
+                        f"Vehicle Type: {vehicle_type}\n"
+                        f"-----------------------------\n"
+                    )
 
             annotated_frame = frame.copy()
             cv2.polylines(
