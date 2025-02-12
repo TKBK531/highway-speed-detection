@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-SOURCE = np.array([[976, 123], [1150, 147], [800, 630], [0, 520]])
+SOURCE = np.array([[976, 123], [1150, 150], [800, 630], [0, 520]])
 
 
 def show_mouse_coordinates(event, x, y, flags, param):
@@ -21,7 +21,7 @@ if __name__ == "__main__":
         exit()
 
     # Draw the polygon on the frame
-    cv2.polylines(frame, [SOURCE], isClosed=True, color=(0, 255, 0), thickness=2)
+    cv2.polylines(frame, [SOURCE], isClosed=True, color=(0, 255, 0), thickness=1)
 
     cv2.namedWindow("First Frame")
     param = {"frame": frame}

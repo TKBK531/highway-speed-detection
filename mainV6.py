@@ -3,6 +3,8 @@ import numpy as np
 import supervision as sv
 from ultralytics import YOLO
 from collections import defaultdict, deque
+import os
+from datetime import datetime
 
 SOURCE = np.array([[976, 123], [1150, 147], [800, 630], [0, 520]])
 
@@ -48,8 +50,19 @@ def get_middle_line(source: np.ndarray, transformer: ViewTransformer) -> np.ndar
 
 def main():
     video_path = r"resources\highway.mp4"
-    output_file = "vehicle_speeds_2.txt"
-    output_video = "annotated_video_2.mp4"
+
+    # Generate a unique identifier using the current date and time
+    unique_id = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # Create output directories
+    output_dir = os.path.join("outputs", unique_id)
+    log_dir = os.path.join(output_dir, "log")
+    video_dir = os.path.join(output_dir, "video")
+    os.makedirs(log_dir, exist_ok=True)
+    os.makedirs(video_dir, exist_ok=True)
+
+    output_file = os.path.join(log_dir, "vehicle_speeds.txt")
+    output_video = os.path.join(video_dir, "annotated_video.mp4")
 
     video_info = sv.VideoInfo.from_video_path(video_path)
     model = YOLO("yolov8x.pt")

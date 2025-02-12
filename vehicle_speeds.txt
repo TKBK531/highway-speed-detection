@@ -67,3 +67,315 @@ Vehicle Type: car
 Lane: Right Lane
 Exit Time: 38.87 seconds
 -----------------------------
+Tracker ID: 45
+Average Speed: 60 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 42.27 seconds
+-----------------------------
+Tracker ID: 47
+Average Speed: 81 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 44.47 seconds
+-----------------------------
+Tracker ID: 48
+Average Speed: 67 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 44.67 seconds
+-----------------------------
+Tracker ID: 50
+Average Speed: 81 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 46.27 seconds
+-----------------------------
+Tracker ID: 60
+Average Speed: 54 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 53.93 seconds
+-----------------------------
+Tracker ID: 61
+Average Speed: 87 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 55.00 seconds
+-----------------------------
+Tracker ID: 62
+Average Speed: 94 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 56.73 seconds
+-----------------------------
+Tracker ID: 68
+Average Speed: 81 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 61.47 seconds
+-----------------------------
+Tracker ID: 70
+Average Speed: 60 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 69.27 seconds
+-----------------------------
+Tracker ID: 71
+Average Speed: 47 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 69.67 seconds
+-----------------------------
+Tracker ID: 77
+Average Speed: 54 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 71.60 seconds
+-----------------------------
+Tracker ID: 91
+Average Speed: 74 km/h
+Vehicle Type: truck
+Lane: Left Lane
+Exit Time: 74.93 seconds
+-----------------------------
+Tracker ID: 95
+Average Speed: 60 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 77.20 seconds
+-----------------------------
+Tracker ID: 98
+Average Speed: 60 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 78.27 seconds
+-----------------------------
+Tracker ID: 100
+Average Speed: 60 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 81.13 seconds
+-----------------------------
+Tracker ID: 103
+Average Speed: 54 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 82.53 seconds
+-----------------------------
+Tracker ID: 105
+Average Speed: 74 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 83.33 seconds
+-----------------------------
+Tracker ID: 113
+Average Speed: 54 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 87.13 seconds
+-----------------------------
+Tracker ID: 114
+Average Speed: 74 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 105.20 seconds
+-----------------------------
+Tracker ID: 115
+Average Speed: 60 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 106.47 seconds
+-----------------------------
+Tracker ID: 121
+Average Speed: 67 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 109.00 seconds
+-----------------------------
+Tracker ID: 126
+Average Speed: 67 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 110.07 seconds
+-----------------------------
+Tracker ID: 131
+Average Speed: 87 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 111.00 seconds
+-----------------------------
+Tracker ID: 132
+Average Speed: 47 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 111.07 seconds
+-----------------------------
+Tracker ID: 137
+Average Speed: 74 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 118.33 seconds
+-----------------------------
+Tracker ID: 138
+Average Speed: 74 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 118.47 seconds
+-----------------------------
+Tracker ID: 143
+Average Speed: 54 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 120.47 seconds
+-----------------------------
+Tracker ID: 145
+Average Speed: 74 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 120.87 seconds
+-----------------------------
+Tracker ID: 146
+Average Speed: 60 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 121.47 seconds
+-----------------------------
+Tracker ID: 150
+Average Speed: 67 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 124.73 seconds
+-----------------------------
+Tracker ID: 155
+Average Speed: 67 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 131.60 seconds
+-----------------------------
+Tracker ID: 156
+Average Speed: 54 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 132.27 seconds
+-----------------------------
+Tracker ID: 158
+Average Speed: 74 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 138.33 seconds
+-----------------------------
+Tracker ID: 159
+Average Speed: 47 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 138.73 seconds
+-----------------------------
+Tracker ID: 160
+Average Speed: 81 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 139.47 seconds
+-----------------------------
+Tracker ID: 161
+Average Speed: 47 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 141.80 seconds
+-----------------------------
+Tracker ID: 169
+Average Speed: 60 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 145.80 seconds
+-----------------------------
+Tracker ID: 178
+Average Speed: 81 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 148.53 seconds
+-----------------------------
+Tracker ID: 185
+Average Speed: 60 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 163.40 seconds
+-----------------------------
+Tracker ID: 191
+Average Speed: 67 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 166.27 seconds
+-----------------------------
+Tracker ID: 195
+Average Speed: 47 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 169.20 seconds
+-----------------------------
+Tracker ID: 205
+Average Speed: 47 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 173.40 seconds
+-----------------------------
+Tracker ID: 212
+Average Speed: 60 km/h
+Vehicle Type: truck
+Lane: Left Lane
+Exit Time: 177.13 seconds
+-----------------------------
+Tracker ID: 217
+Average Speed: 40 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 179.07 seconds
+-----------------------------
+Tracker ID: 224
+Average Speed: 47 km/h
+Vehicle Type: truck
+Lane: Left Lane
+Exit Time: 181.20 seconds
+-----------------------------
+Tracker ID: 225
+Average Speed: 40 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 183.87 seconds
+-----------------------------
+Tracker ID: 228
+Average Speed: 40 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 185.53 seconds
+-----------------------------
+Tracker ID: 231
+Average Speed: 60 km/h
+Vehicle Type: car
+Lane: Left Lane
+Exit Time: 187.87 seconds
+-----------------------------
+Tracker ID: 238
+Average Speed: 67 km/h
+Vehicle Type: truck
+Lane: Left Lane
+Exit Time: 190.00 seconds
+-----------------------------
+Tracker ID: 237
+Average Speed: 54 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 190.00 seconds
+-----------------------------
+Tracker ID: 241
+Average Speed: 74 km/h
+Vehicle Type: truck
+Lane: Right Lane
+Exit Time: 199.40 seconds
+-----------------------------
+Tracker ID: 242
+Average Speed: 74 km/h
+Vehicle Type: car
+Lane: Right Lane
+Exit Time: 204.40 seconds
+-----------------------------
