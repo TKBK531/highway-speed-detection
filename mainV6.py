@@ -65,7 +65,9 @@ def main():
     output_video = os.path.join(video_dir, "annotated_video.mp4")
 
     video_info = sv.VideoInfo.from_video_path(video_path)
-    model = YOLO("yolov8x.pt")
+    # model = YOLO("yolov8x.pt")
+    model = YOLO("yolov8n.pt")
+    # model = YOLO("yolov7n.pt")
     byte_track = sv.ByteTrack(frame_rate=video_info.fps)
 
     thickness = 1
@@ -140,13 +142,6 @@ def main():
                         recorded_ids.add(tracker_id)
 
             annotated_frame = frame.copy()
-            # cv2.polylines(
-            #     annotated_frame,
-            #     [SOURCE],
-            #     isClosed=True,
-            #     color=(0, 255, 0),
-            #     thickness=thickness,
-            # )
             annotated_frame = box_annotator.annotate(
                 scene=annotated_frame, detections=detections
             )
